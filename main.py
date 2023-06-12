@@ -1,5 +1,8 @@
-from cpf import CPF
+from cpf import Document
 
-cpf = 12312312412
+cpf2 = "04181136028"
 
-cpf = CPF(cpf)
+
+cpf2 = Document.cria_documento(cpf2)
+
+print(cpf2)
